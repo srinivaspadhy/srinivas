@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shoppingcart.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <center>
+            <div class="search" id="searcharea">
+
+                <input id="src" type="text" placeholder="Enter Your Choice">&nbsp;&nbsp;
+                <button id="btn" value="find" onclick="callfunc()">Search</button>
+
+            </div>
+            <div class="content" id="contentarea">
+                <table id="populate">
+
+                </table>
+            </div>
+            <div class="buttons">
+                <button id="btnc1" value="add" onclick="addtocart()">Add to cart</button>&nbsp;&nbsp;&nbsp;
+                <button id="btnr" value="Clear" onclick="clear()">Clear</button>
+            </div>
+        </center>
+    </div>
+    <div class="maincart" id="finalcart">
+        <center>
+            <div class="checkout" id="check">
+                <table id="addcart">
+
+                </table>
+            </div>
+            <div class="buttons">
+                <button id="btnc2" value="add" onclick="checkout()">Check Out</button>&nbsp;&nbsp;&nbsp;
+
+            </div>
+
+        </center>
+
+        </center>
+    </div>
+    <div class="final" id="finalc">
+        <center>
+
+            <table id="finalt">
+
+            </table>
+
+        </center>
+    </div>
+    <script src="items.js"></script>
+</body>
+
+</html>

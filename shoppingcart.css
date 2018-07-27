@@ -1,0 +1,26 @@
+.main {
+    background-color: aqua;
+    width:70%;
+    position:absolute;
+    top:0%;
+    bottom:100px;
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
+}
+.maincart{
+    width:25%;
+    position:absolute;
+    top:0%;
+    bottom:600px;
+    left:71%;
+
+}
+.final{
+    background-color:green;
+    width:70%;
+    position: absolute;;
+    top:50%;
+    bottom:100px;
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
+}
